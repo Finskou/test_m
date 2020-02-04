@@ -15,4 +15,4 @@ go build test1.go && time ./test1 ./words < test1.in > test1.out
 time node test1.js ./words < test1.in > test1.out
 
 # Check output:
-diff -u test1.exp test1.out && echo OK ]]
+diff -u test1.exp test1.out && echo OK
