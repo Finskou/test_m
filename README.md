@@ -4,8 +4,6 @@ Test Checkbox -> Dossier test 3
 
 Test Algo -> test1.php
 
-[[
-
 Running
 # PHP:
 time php test1.php ./words ./test1.in > test1.out
