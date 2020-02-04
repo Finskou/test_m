@@ -1,0 +1,71 @@
+h1 {
+  text-align:center;
+  font-family: 'Cormorant Infant', serif;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.check {
+  padding:3px;
+  display:block;
+  position:relative;
+  font-family: 'Noto Serif', serif;
+  font-size:1em;
+  font-weight:bolder;
+  width:200px !important;
+  margin-left:5vw;
+  height:3vh;
+}
+
+.check:hover{
+  cursor:pointer;
+  background-color:#47428510;
+  width: 200px !important;
+  border-radius: 5px;
+  margin-left:5vw;
+  height:3vh;
+}
+
+.checkpoint {
+  position: absolute;
+  padding:2px;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 2px;;
+}
+
+.check:hover input ~ .checkpoint {
+  background-color: #ccc;
+}
+
+.check input:checked ~ .checkpoint {
+  background-color: #2196F3;
+}
+
+.check input:checked ~ .checkpoint:after {
+  display: block;
+}
+
+.checkpoint:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check .checkpoint:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
