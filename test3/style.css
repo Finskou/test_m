@@ -27,7 +27,7 @@ input {
   box-shadow:0px 0px 5px 5px #4b477723 ;
   border:transparent;
   width: 170px !important;
-  height:28px !important;
+  height:20px !important;
   border-radius: 5px;
   margin-left:5vw;
   height:3vh;
@@ -76,8 +76,6 @@ input {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  /* animation-duration: 1s;
-  animation-name:appear;  */
 }
 /* 
 @keyframes appear {
