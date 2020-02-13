@@ -13,17 +13,21 @@ input {
 .check {
   padding:3px;
   display:block;
+  width:170px !important;
+  margin-left:5vw;
   font-family: 'Noto Serif', serif;
   font-size:1em;
   font-weight:bolder;
-  width:170px !important;
-  margin-left:5vw;
 }
+
 
 .check:hover{
   cursor:pointer;
-  background-color:#47428510;
+  background:#4b477723;
+  box-shadow:0px 0px 5px 5px #4b477723 ;
+  border:transparent;
   width: 170px !important;
+  height:28px !important;
   border-radius: 5px;
   margin-left:5vw;
   height:3vh;
@@ -36,12 +40,13 @@ input {
   width: 15px;
   background-color: rgb(236, 235, 235);
   border-radius: 2px;
-  transition: transform .1s;
+  transition:transform .5s;
 }
 
-.check .checkpoint:active{
+
+.checkpoint:active{
   transform: scale(.6);
-}
+} 
 
 .check:hover input ~ .checkpoint {
   background-color: #ccc;
@@ -71,4 +76,17 @@ input {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+  /* animation-duration: 1s;
+  animation-name:appear;  */
 }
+/* 
+@keyframes appear {
+  from {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+
+} */
