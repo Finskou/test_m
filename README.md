@@ -1,10 +1,10 @@
 Tests pour Mention.
 
-Test Librairie Cache -> Dossier test 1
 
+Test Algo -> Dossier test 1
+Test Librairie Cache -> Dossier test 2
 Test Checkbox -> Dossier test 3
 
-Test Algo -> Dossier test 2
 
 For test 1: 
 
