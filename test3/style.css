@@ -27,7 +27,7 @@ input {
   box-shadow:0px 0px 5px 5px #4b477723 ;
   border:transparent;
   width: 170px !important;
-  height:20px !important;
+  height:28px !important;
   border-radius: 5px;
   margin-left:5vw;
   height:3vh;
@@ -40,12 +40,12 @@ input {
   width: 15px;
   background-color: rgb(236, 235, 235);
   border-radius: 2px;
-  transition:transform .5s;
 }
 
 
-.checkpoint:active{
+.check:active .checkpoint{
   transform: scale(.6);
+  transition: all .15s linear;
 } 
 
 .check:hover input ~ .checkpoint {
@@ -77,14 +77,4 @@ input {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* 
-@keyframes appear {
-  from {
-    margin-right: 100%;
-  }
 
-  to {
-    margin-right: 0%;
-  }
-
-} */
